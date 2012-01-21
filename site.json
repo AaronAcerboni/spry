@@ -1,0 +1,36 @@
+{
+	"lang" : "en",
+	"index" : {
+		"title" : "My site",
+		"blurb" : "This is a simple site generated with spry",
+		"site"  : [
+			{
+				"mini" : [
+					{
+						"heading" : "mini #1",
+						"content" : "<p>Sun</p>"
+					},
+					{
+						"heading" : "mini #2",
+						"content" : "<p>Moon</p>"
+					},
+					{
+						"heading" : "mini #3",
+						"content" : "<p>Stars</p>"
+					}
+				]
+			},
+			{
+				"large" : {
+					"heading" : "large #1",
+					"content" : "Ergo lipsum something latin ..."
+				}
+			}
+		]
+	},
+	"404" : {
+		"title" : "404 &dash; Resource not found",
+		"blurb" : "The page you requested doesn't exist",
+		"site" : []
+	}
+}

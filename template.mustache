@@ -1,0 +1,43 @@
+<!--
+	♥ Make Code Not War ♥
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta lang="{{lang}}"/>
+		<title>{{title}}</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		
+		<div class="container">
+			<h1>{{title}}</h1>
+			
+			<p class="blurb">{{{blurb}}}</p>
+			
+			{{#site}}
+				<hr>
+				<div class="row">
+					{{#mini}}
+							<div class="span4">
+								<h3>{{heading}}</h3>
+								{{{content}}}
+							</div>
+					{{/mini}}
+					
+					{{#large}}
+							<div class="span9">
+								<h3>{{heading}}</h3>
+								{{{content}}}
+							</div>
+					{{/large}}
+				</div>
+			{{/site}}
+			
+		</div>
+
+	</body>
+</html>
