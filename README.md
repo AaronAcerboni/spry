@@ -19,6 +19,35 @@ The two pages are configured in the `site.json` file.
 
 For an example of a site built using spry see [halfmelt.com](http://halfmelt.com)
 
+# site.json
+
+This is the file which you define your page.
+
+    ...
+    "site" : [
+	    {
+			"mini" : [
+				{
+					"heading" : "Hello"
+					"content" : "I'm an example"
+				},
+				{
+					"heading" : "Goodbye"
+					"content" : "<b>I have a planet to save</b>"
+				},
+			]
+	    },
+	    {
+			"large" : {
+				"content" : "<code>heading</code> is overrated"
+			}
+	    }
+    ]
+    ...
+
+The order of the objects in `site` array counts. `mini` can have as many 
+objects inside as you want.  
+
 # Credits
 
 - [Aaron Acerboni](http://github.com/aaronacerboni)
