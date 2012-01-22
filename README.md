@@ -1,5 +1,7 @@
 # Usage
 
+`npm install spry`  
+
 `node spry.js`  
 
 This will output an index.html and 404.html page providing your 
