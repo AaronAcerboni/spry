@@ -1,10 +1,10 @@
 var fs            = require('fs'),
-	m             = require('mustache'),
-	siteFile      = fs.readFileSync('site.json', 'utf8'),
-	templateIndex = fs.readFileSync('template.mustache', 'utf8'),
-	template404   = fs.readFileSync('404.mustache', 'utf8'),
-	index	 	  = null,
-	_404	 	  = null;
+    m             = require('mustache'),
+    siteFile      = fs.readFileSync('site.json', 'utf8'),
+    templateIndex = fs.readFileSync('index.mustache', 'utf8'),
+    template404   = fs.readFileSync('404.mustache', 'utf8'),
+    index         = null,
+    _404          = null;
 
 // Generate views
 index = JSON.parse(siteFile)["index"];
