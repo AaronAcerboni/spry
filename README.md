@@ -28,13 +28,13 @@ This is the file which you define your page. I'm only showing you the most compl
 	    {
 			"mini" : [
 				{
-					"heading" : "Hello"
+					"heading" : "Hello",
 					"content" : "I'm an example"
 				},
 				{
-					"heading" : "Goodbye"
+					"heading" : "Goodbye",
 					"content" : "<b>I have a planet to save</b>"
-				},
+				}
 			]
 	    },
 	    {
