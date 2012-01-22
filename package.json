@@ -1,0 +1,11 @@
+{
+    "name": "spry",
+    "author": "Aaron Acerboni <a.acerboni@gmail.com>",
+    "description": "A easy static page generator which outputs index and 404 html. Perfect for a github page or anything similar.",
+    "keywords": ["static", "static site generator", "github", "gh-pages", "spry", "json"],
+    "version": "0.0.1",
+    "main": "spry.js",
+    "dependencies" : {
+      "mustache" : ">=0.4.0"
+    }
+}
