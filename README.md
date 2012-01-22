@@ -21,7 +21,7 @@ For an example of a site built using spry see [halfmelt.com](http://halfmelt.com
 
 # site.json
 
-This is the file which you define your page.
+This is the file which you define your page. I'm only showing you the most complex part. The rest of the json file is straight forward.
 
     ...
     "site" : [
