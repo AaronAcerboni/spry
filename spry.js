@@ -1,17 +1,27 @@
-var fs            = require('fs'),
-    m             = require('mustache'),
-    siteFile      = fs.readFileSync('site.json', 'utf8'),
-    templateIndex = fs.readFileSync('index.mustache', 'utf8'),
-    template404   = fs.readFileSync('404.mustache', 'utf8'),
-    index         = null,
-    _404          = null;
+var
+md       = require('node-markdown').Markdown,
+fs       = require('fs'),
+source   = process.argv[2],
+title    = process.argv[3] || 'Spry',
+markdown,
+html;
 
-// Generate views
-index = JSON.parse(siteFile)["index"];
-_404  = JSON.parse(siteFile)["404"];
+markdown = fs.readFileSync(source, 'utf8');
 
-// Generate index.html;
-fs.writeFileSync('index.html', m.to_html(templateIndex, index), 'utf8');
+html = md(markdown);
 
-// Generate 404.html
-fs.writeFileSync('404.html', m.to_html(template404, _404), 'utf8');
+fs.writeFileSync('output/index.html', wrap(html), 'utf8');
+
+function wrap (html) {
+  return "" +
+  "<!doctype html>\n" +
+  "<html lang=\"en\">\n" +
+  "<head>\n" +
+  "<meta charset=\"utf8\">\n" +
+  "<title>" + title + "</title>\n" +
+  "<link rel=\"stylesheet\" href=\"style.css\"" +
+  "</head>\n" + 
+  "<html>\n" +
+  html +
+  "\n</html>";
+}
