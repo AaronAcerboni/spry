@@ -1,4 +1,4 @@
-Create semantic, pretty &amp; responsive pages html files from markdown.
+Create pretty and semantic pages html pages from markdown.
 
 !['A sample page. See sample/kopimi.md'](https://github.com/AaronAcerboni/spry/raw/master/sample/sample.png "A sample page. See sample/kopimi.md")
 
