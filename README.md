@@ -50,3 +50,9 @@ would output the following...
 </ul> 
 </html>
 ```
+
+- - -
+[![kopimi][1]][2]
+
+  [1]: https://github.com/AaronAcerboni/aaronacerboni.github.com/blob/master/kopimi_mini_b$
+  [2]: http://kopimi.com/kopimi/
