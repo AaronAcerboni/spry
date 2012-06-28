@@ -1,4 +1,4 @@
-Create semantic and pretty responsive pages html files from markdown.
+Create semantic, pretty &amp; responsive pages html files from markdown.
 
 !['A sample page. See sample/kopimi.md'](https://github.com/AaronAcerboni/spry/raw/master/sample/sample.png "A sample page. See sample/kopimi.md")
 
@@ -17,8 +17,9 @@ The index.html file is outputted to the output folder.
 
 ## Example
 
-test.md
-```
+**test.md**
+
+```Markdown
 # hello world
 
 - i
@@ -30,8 +31,9 @@ test.md
 
 would output the following...
 
-output/index.html
-```
+**output/index.html**
+
+```HTML
 <!doctype html> 
 <html lang="en"> 
 <head> 
