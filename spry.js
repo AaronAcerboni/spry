@@ -18,10 +18,13 @@ function wrap (html) {
   "<html lang=\"en\">\n" +
   "<head>\n" +
   "<meta charset=\"utf8\">\n" +
+  "<meta name=\"viewport\" content=\"width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;\">\n" +
   "<title>" + title + "</title>\n" +
   "<link rel=\"stylesheet\" href=\"style.css\"" +
   "</head>\n" + 
   "<html>\n" +
+  "<div id='page'>\n" +
   html +
+  "</div>" +
   "\n</html>";
 }
