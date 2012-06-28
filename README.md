@@ -54,5 +54,5 @@ would output the following...
 - - -
 [![kopimi][1]][2]
 
-  [1]: https://github.com/AaronAcerboni/aaronacerboni.github.com/blob/master/kopimi_mini_b$
+  [1]: https://github.com/AaronAcerboni/aaronacerboni.github.com/blob/master/kopimi_mini_black.gif?raw=true
   [2]: http://kopimi.com/kopimi/
