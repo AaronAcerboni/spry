@@ -1,4 +1,6 @@
-Create a simple but pretty index.html file from a markdown file.
+Create semantic and pretty responsive pages html files from markdown.
+
+!['A sample page. See sample/kopimi.md'](https://github.com/AaronAcerboni/spry/raw/master/sample/sample.png "A sample page. See sample/kopimi.md")
 
 ## Usage
 
