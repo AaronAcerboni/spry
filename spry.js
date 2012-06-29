@@ -22,9 +22,10 @@ function wrap (html) {
   "<title>" + title + "</title>\n" +
   "<link rel=\"stylesheet\" href=\"style.css\"" +
   "</head>\n" + 
-  "<html>\n" +
+  "<body>\n" +
   "<div id='page'>\n" +
   html +
   "</div>" +
+  "</body>" +
   "\n</html>";
 }
