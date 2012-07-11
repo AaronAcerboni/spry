@@ -4,7 +4,7 @@ Create pretty and semantic pages html pages from markdown.
 
 ## Usage
 
-Spry is dependant on [node.js.](http://nodejs.org)
+spry is dependant on [node.js.](http://nodejs.org)
 
 ```bash
 $ git clone git@github.com@AaronAcerboni/spry.git
