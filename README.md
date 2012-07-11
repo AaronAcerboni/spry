@@ -4,14 +4,17 @@ Create pretty and semantic pages html pages from markdown.
 
 ## Usage
 
-`git clone git@github.com:AaronAcerboni/spry.git`  
-`cd spry`  
-`npm install`  
-`node spry.js input.md "my page"`  
+Spry is dependant on [node.js.](http://nodejs.org)
 
+```bash
+$ git clone git@github.com@AaronAcerboni/spry.git
+$ cd spry
+$ npm install
+$ ./spry input.md "My history"
+```
 
-spry.js takes 2 parameters. The first is file reference to the markdown file and 
-the second in optional index.html page title.
+spry takes 2 parameters. The first is file reference to the markdown file and 
+the second is an optional html document title.
 
 The index.html file is outputted to the output folder.
 
