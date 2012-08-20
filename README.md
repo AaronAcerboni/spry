@@ -10,7 +10,7 @@ spry is dependant on [node.js.](http://nodejs.org)
 $ git clone git@github.com@AaronAcerboni/spry.git
 $ cd spry
 $ npm install
-$ ./spry input.md "My history"
+$ ./spry input.md "My title"
 ```
 
 spry takes 2 parameters. The first is file reference to the markdown file and 
